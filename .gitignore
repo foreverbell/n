@@ -1,0 +1,6 @@
+_cache/
+_site/
+n/
+stack.yaml
+stack.yaml.lock
+.stack-work/
