@@ -1,15 +1,6 @@
-all: example build server
-
-example:
-	-mkdir n
-	echo '# Hello World' > n/Hello\ World.md
-	echo '' >> n/Hello\ World.md
-	echo '## Section' >> n/Hello\ World.md
-	echo '' >> n/Hello\ World.md
-	echo 'Example' >> n/Hello\ World.md
+all: server
 
 build:
-	stack build
 	stack exec n build
 
 server:
