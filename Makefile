@@ -1,4 +1,4 @@
-all: server
+all: build server
 
 build:
 	stack exec n build
